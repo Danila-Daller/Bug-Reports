@@ -1,0 +1,1911 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G11-230","group1.1","","Edite TO-DO: When editing input fields, the data isn't changed","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on any task.
+2. Click on the edit button.
+3. Enter Game in the input field ""Title"".
+4. Enter Game in the input field ""TO-DO"".
+5. Click on the edit confirmation button
+
+**Result:** When editing input fields, the data isn't changed
+
+**Expected result:** When editing input fields, the data is changed","0"
+"G11-196","group1.1","Star","Mobile app testing: Danila Andronov","danila.andronov","7 Nov 2022","8 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-228","group1.1","","New TO-DO: When entering gap(s) characters in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+
+2. Enter only gap(s) in the input field ""TO-DO""
+
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   &nbsp;&nbsp;&nbsp;&nbsp;
+
+**Result:** When entering gap(s) in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-227","group1.1","","New TO-DO: When entering special characters in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+
+2. Enter only special characters in the input field ""TO-DO""
+
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   $$$
+
+**Result:** When entering special characters in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-226","group1.1","","New TO-DO: When entering numbers in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+
+2. Enter only numbers in the input field ""TO-DO""
+
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   15
+
+**Result:** When entering numbers in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-225","group1.1","Star","New TO-DO: When entering 255 characters characters in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+
+2. Enter 255 characters in the input field ""TO-DO""
+
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   255 characters
+
+**Result:** When entering 255 characters in the input field ""TO-DO"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-223","group1.1","Star","New TO-DO: When entering 255 characters characters in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+
+2. Enter 255 characters in the input field ""Title""
+
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   255 characters
+
+**Result:** When entering 255 characters in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-221","group1.1","Star","New TO-DO: When entering gap(s) characters in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+
+2. Enter only gap(s) in the input field ""Title""
+
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   &nbsp;&nbsp;&nbsp;&nbsp;
+
+**Result:** When entering gap(s) in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-220","group1.1","Star","New TO-DO: When entering special characters in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+
+2. Enter only special characters in the input field ""Title""
+
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   $$$
+
+**Result:** When entering special characters in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-219","group1.1","Star","New TO-DO: When entering numbers in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted","danila.andronov","8 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click the on button ""Add task"" in the form of a circle with a plus in the center
+2. Enter only numbers in the input field ""Title""
+3. Сonfirm the creation of the task
+
+   **INPUT DATA:**
+
+   15
+
+**Result:** When entering numbers in the input field ""Title"" and confirming the creation of a task, the application closes, the tasks are deleted
+
+**Expected result:** New task is created.","0"
+"G11-217","group1.1","Star","The web filtering software: By clicking on the ""Active"" button, active tasks aren't shown","danila.andronov","8 Nov 2022","8 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on the web filtering software
+2. Click on the ""Active"" button
+
+**Result:** By clicking on the ""Active"" button, active tasks aren't shown
+
+**Expected result:** By clicking on the ""Active"" button, active tasks are shown","0"
+"G11-216","group1.1","Star","The button ""Clear completed"": By clicking on the ""Clear completed"" button, completed tasks aren't cleared","danila.andronov","8 Nov 2022","8 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on dropdown in the top right corner
+2. Click on the ""Clear completed"" button
+
+**Result:** By clicking on the ""Clear completed"" button, completed tasks aren't cleared
+
+**Expected result:** By clicking on the ""Clear completed"" button, completed tasks are cleared","0"
+"G11-215","group1.1","Star","The button ""Statistics"": Statistics about completed tasks aren't updated when they change","danila.andronov","8 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on the checkbox ""a""
+2. Click on dropdown in the top left corner
+3. Click on the ""Statistics"" button
+4. Back to ""TO-DO list""
+5. Click on the checkbox "" "", ""у""
+6. Click on dropdown in the top left corner
+7. Click on the ""Statistics"" button
+
+**Result:** Statistics about completed tasks aren't updated when they change
+
+**Expected result:** Statistics about completed tasks are updated when they change","0"
+"G11-214","group1.1","Star","New TO-DO: The back button does not take the user to the previous screen when pressed","danila.andronov","8 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on the button ""Add task""
+2. Click the on back button in the form of an arrow to the left.
+
+**Result:** The back button  does not take the user to the previous screen when pressed.
+
+**Expected result:** Go to previous screen.","0"
+"G11-213","group1.1","Star","Edite TO-DO: The back button does not take the user to the previous screen when pressed","danila.andronov","8 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on any task.
+2. Click on the edit button.
+3. Click the on back button in the form of an arrow to the left
+
+**Result:** The back button  does not take the user to the previous screen when pressed.
+
+**Expected result:** Go to previous screen.","0"
+"G11-212","group1.1","Star","Edite TO-DO: The back button on the device itself does not take the user to the previous screen when pressed","danila.andronov","8 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on any task.
+2. Click on the edit button.
+3. Click on the virtual back button on the device itself (swipe rightmost panel)
+
+**Result:** The back button on the device itself does not take the user to the previous screen when pressed.
+
+**Expected result:** Go to previous screen.","0"
+"G11-211","group1.1","Star","New TO-DO: The back button on the device itself does not take the user to the previous screen when pressed","danila.andronov","8 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Galaxy A50 SM-A505FN/DS Версия One UI 3.1 Версия Android 11","No qase tc # (only for bug)","***Pre-conditions:***
+
+1. Open application ""TO-GO-MVP""
+
+**STR:**
+
+1. Click on the button ""Add task""
+2. Click on the virtual back button on the device itself (swipe rightmost panel)
+
+**Result:** The back button on the device itself does not take the user to the previous screen when pressed.
+
+**Expected result:** Go to previous screen.","0"
+"G11-46","group1.1","Star","Web App Testing Danila Andronov","danila.andronov","25 Sep 2022","2 Oct 2022",,"Normal","Epic","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-136","group1.1","Star","Payment module - The input field ""Cardholder name:"": the system doesn't give an error when enter 255 characters in the input field ""Cardholder name:""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit) Редактировать","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Cardholder name:""
+
+2. Enter 255 characters
+   **INPUT DATA:**
+
+   255 characters
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 characters on the input field ""Cardholder name:"". No way to click ""Сontinue"".","0"
+"G11-135","group1.1","Star","Payment module - The input field ""Cardholder name:"": the system doesn't give an error when enter 1 character in the input field ""Cardholder name:""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Cardholder name:""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   D
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Cardholder name:"". No way to click ""Сontinue"".","0"
+"G11-134","group1.1","Star","Payment module - The input field ""Cardholder name:"": the system doesn't give an error when enter Cyrillic in the input field ""Cardholder name:""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Cardholder name:""
+
+2. Enter Cyrillic
+   **INPUT DATA:**
+
+   Дмитрий
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Cyrillic on the input field ""Cardholder name:"". No way to click ""Сontinue"".","0"
+"G11-133","group1.1","Star","Payment module - The input field ""Cardholder name:"": the system doesn't give an error when enter numbers in the input field ""Cardholder name:""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Cardholder name:""
+
+2. Enter numbers
+   **INPUT DATA:**
+
+   643435
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter numbers on the input field ""Cardholder name:"". No way to click ""Сontinue"".","0"
+"G11-132","group1.1","Star","Payment module - The input field ""Cardholder name:"": the system doesn't give an error when enter special characters  in the input field ""Cardholder name:""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Cardholder name:""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   №№№№
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Cardholder name:"". No way to click ""Сontinue"".","0"
+"G11-131","group1.1","Star","Payment module - The input field ""Fax number"": the system doesn't give an error when enter special characters  in the input field ""Fax number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Fax number""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   №№№№
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Fax number"". No way to click ""Сontinue"".","0"
+"G11-130","group1.1","Star","Payment module - The input field ""Fax number"": the system doesn't give an error when enter Cyrillic  in the input field ""Fax number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Fax number""
+
+2. Enter Cyrillic
+   **INPUT DATA:**
+
+   ошибка
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Cyrillic on the input field ""Fax number"". No way to click ""Сontinue"".","0"
+"G11-129","group1.1","Star","Payment module - The input field ""Fax number"": the system doesn't give an error when enter Latin in the input field ""Fax number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Fax number""
+
+2. Enter Latin
+   **INPUT DATA:**
+
+   mistake
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Latin on the input field ""Fax number"". No way to click ""Сontinue"".","0"
+"G11-128","group1.1","Star","Payment module - The input field ""Fax number"": the system doesn't give an error when enter 1 character in the input field ""Fax number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Fax number""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   8
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Fax number"". No way to click ""Сontinue"".","0"
+"G11-127","group1.1","Star","Payment module - The input field ""Fax number"": the system doesn't give an error when enter 255 characters in the input field ""Fax number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Fax number""
+
+2. Enter 255 characters
+   **INPUT DATA:**
+
+   255 characters
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 characters on the input field ""Fax number"". No way to click ""Сontinue"".","0"
+"G11-126","group1.1","Star","Payment module - The input field ""Phone number"": the system doesn't give an error when enter 255 characters in the input field ""Phone number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Phone number""
+
+2. Enter 255 characters
+   **INPUT DATA:**
+
+   255 characters
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 characters on the input field ""Phone number"". No way to click ""Сontinue"".","0"
+"G11-125","group1.1","Star","Payment module - The input field ""Phone number"": the system doesn't give an error when enter 1 character in the input field ""Phone number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Phone number""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   8
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Phone number"". No way to click ""Сontinue"".","0"
+"G11-124","group1.1","Star","Payment module - The input field ""Phone number"": the system doesn't give an error when enter Latin in the input field ""Phone number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Phone number""
+
+2. Enter Latin
+   **INPUT DATA:**
+
+   mistake
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Latin on the input field ""Phone number"". No way to click ""Сontinue"".","0"
+"G11-123","group1.1","Star","Payment module - The input field ""Phone number"": the system doesn't give an error when enter Cyrillic in the input field ""Phone number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Phone number""
+
+2. Enter Cyrillic
+   **INPUT DATA:**
+
+   ошибка
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Cyrillic on the input field ""Phone number"". No way to click ""Сontinue"".","0"
+"G11-122","group1.1","Star","Payment module - The input field ""Phone number"": the system doesn't give an error when enter special characters in the input field ""Phone number""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Phone number""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   №%№№
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Phone number"". No way to click ""Сontinue"".","0"
+"G11-121","group1.1","Star","Payment module - The input field ""Zip / postal code"": the system doesn't give an error when enter special characters in the input field ""Zip / postal code""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   №%№№
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Zip / postal code"". No way to click ""Сontinue"".","0"
+"G11-120","group1.1","Star","Payment module - The input field ""Zip / postal code"": the system doesn't give an error when enter Cyrillic in the input field ""Zip / postal code""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter Cyrillic
+   **INPUT DATA:**
+
+   сто
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Cyrillic on the input field ""Zip / postal code"". No way to click ""Сontinue"".","0"
+"G11-119","group1.1","Star","Payment module - The input field ""Zip / postal code"": the system doesn't give an error when enter Latin in the input field ""Zip / postal code""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter Latin
+   **INPUT DATA:**
+
+   code
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Latin on the input field ""Zip / postal code"". No way to click ""Сontinue"".","0"
+"G11-118","group1.1","Star","Payment module - The input field ""Zip / postal code"": the system doesn't give an error when enter 1 character in the input field ""Zip / postal code""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   3
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Zip / postal code"". No way to click ""Сontinue"".","0"
+"G11-117","group1.1","Star","Payment module - The input field ""Zip / postal code"": the system doesn't give an error when enter 255 character in the input field ""Zip / postal code""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter 255 character
+   **INPUT DATA:**
+
+   255 character
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 character on the input field ""Zip / postal code"". No way to click ""Сontinue"".","0"
+"G11-116","group1.1","Star","Payment module - The input field ""Address 2"": the system doesn't give an error when enter 255 character in the input field ""Address 2""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 2""
+
+2. Enter 255 character
+   **INPUT DATA:**
+
+   255 character
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 character on the input field ""Address 2"". No way to click ""Сontinue"".","0"
+"G11-115","group1.1","Star","Payment module - The input field ""Address 2"": the system doesn't give an error when enter 1 character in the input field ""Address 2""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 2""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   t
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Address 2"". No way to click ""Сontinue"".","0"
+"G11-114","group1.1","Star","Payment module - The input field ""Address 1"": the system doesn't give an error when enter 1 character in the input field ""Address 1""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 1""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   t
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Address 1"". No way to click ""Сontinue"".","0"
+"G11-113","group1.1","Star","Payment module - The input field ""Address 1"": the system doesn't give an error when enter 255 character in the input field ""Address 1""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 1""
+
+2. Enter 255 character
+   **INPUT DATA:**
+
+   255 character
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 character on the input field ""Address 1"". No way to click ""Сontinue"".","0"
+"G11-112","group1.1","Star","Payment module - The input field ""City"": the system doesn't give an error when enter 255 character in the input field ""City""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""City""
+
+2. Enter 255 character
+   **INPUT DATA:**
+
+   255 character
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 character on the input field ""City"". No way to click ""Сontinue"".","0"
+"G11-111","group1.1","Star","Payment module - The input field ""City"": the system doesn't give an error when enter 1 character in the input field ""City""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""City""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   g
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""City"". No way to click ""Сontinue"".","0"
+"G11-110","group1.1","Star","Payment module - The input field ""City"": the system doesn't give an error when enter special characters in the input field ""City""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""City""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   %%%%%%%
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""City"". No way to click ""Сontinue"".","0"
+"G11-109","group1.1","Star","Payment module - The input field ""Address 1"": the system doesn't give an error when enter special characters in the input field ""Address 1""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 1""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   %%%%%%%
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Address 1"". No way to click ""Сontinue"".","0"
+"G11-108","group1.1","Star","Payment module - The input field ""Address 2"": the system doesn't give an error when enter special characters in the input field ""Address 2""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 2""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   %%%%%%%
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Address 2"". No way to click ""Сontinue"".","0"
+"G11-107","group1.1","Star","Payment module - The input field ""Address 2"": the system doesn't give an error when enter numbers in the input field ""Address 2""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 2""
+
+2. Enter numbers
+   **INPUT DATA:**
+
+   454454
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter numbers on the input field ""Address 2"". No way to click ""Сontinue"".","0"
+"G11-106","group1.1","Star","Payment module - The input field ""Address 1"": the system doesn't give an error when enter numbers in the input field ""Address 1""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Address 1""
+
+2. Enter numbers
+   **INPUT DATA:**
+
+   454454
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter numbers on the input field ""Address 1"". No way to click ""Сontinue"".","0"
+"G11-105","group1.1","Star","Payment module - The input field ""City"": the system doesn't give an error when enter numbers in the input field ""City""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""City""
+
+2. Enter numbers
+   **INPUT DATA:**
+
+   454454
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter numbers on the input field ""City"". No way to click ""Сontinue"".","0"
+"G11-104","group1.1","Star","Payment module - The input field ""Email"": the system doesn't give an error when enter Latin with @ but without domain zone in the input field ""Email""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Email""
+
+2. Enter Latin with @ but without domain zone
+   **INPUT DATA:**
+
+   ivanov@sdds.gu
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Latin with @ but without domain zone on the input field ""Email"". No way to click ""Сontinue"".","0"
+"G11-103","group1.1","Star","Payment module - The input field ""Email"": the system doesn't give an error when enter 255 character with @ in the input field ""Email""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Email""
+
+2. Enter 255 character with @
+   **INPUT DATA:**
+
+   255 character with @
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 character with @ on the input field ""Email"". No way to click ""Сontinue"".","0"
+"G11-102","group1.1","Star","Payment module - The input field ""Email"": the system doesn't give an error when enter 1 character with @ in the input field ""Email""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Email""
+
+2. Enter 1 character with @
+   **INPUT DATA:**
+
+   q@gmail.com
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character with @ on the input field ""Email"". No way to click ""Сontinue"".","0"
+"G11-101","group1.1","Star","Payment module - The input field ""Email"": the system doesn't give an error when enter Cyrillic in the input field ""Email""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Email""
+
+2. Enter special Cyrillic
+   **INPUT DATA:**
+
+   уцкук@gmail.com
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter Cyrillic on the input field ""Email"". No way to click ""Сontinue"".","0"
+"G11-100","group1.1","Star","Payment module - The input field ""Email"": the system doesn't give an error when enter special characters with @ in the input field ""Email""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Email""
+
+2. Enter special characters with @
+   **INPUT DATA:**
+
+   %%%%%@gmail.com
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter characters with @ on the input field ""Email"". No way to click ""Сontinue"".","0"
+"G11-99","group1.1","Star","Payment module - The input field ""Email"": the system doesn't give an error when enter numbers with @ in the input field ""Email""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Email""
+
+2. Enter numbers with @
+   **INPUT DATA:**
+
+   32432432@gmail.com
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter numbers with @ on the input field ""Email"". No way to click ""Сontinue"".","0"
+"G11-98","group1.1","Star","Payment module - The input field ""Company"": the system doesn't give an error when enter 255 characters in the input field ""Company""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Company""
+
+2. Enter 255 characters
+   **INPUT DATA:**
+
+   255 character
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 characters on the input field ""Company"". No way to click ""Сontinue"".","0"
+"G11-97","group1.1","Star","Payment module - The input field ""Company"": the system doesn't give an error when enter 1 character in the input field ""Company""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Company""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   t
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Company"". No way to click ""Сontinue"".","0"
+"G11-96","group1.1","Star","Payment module - The input field ""Company"": the system doesn't give an error when enter numbers in the input field ""Company""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Company""
+
+2. Enter numbers
+   **INPUT DATA:**
+
+   43543543
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter numbers on the input field ""Company"". No way to click ""Сontinue"".","0"
+"G11-95","group1.1","Star","Payment module - The input field ""Company"": the system doesn't give an error when enter special characters in the input field ""Company""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Company""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   $$$$$$$$
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Company"". No way to click ""Сontinue"".","0"
+"G11-94","group1.1","Star","Payment module - The input field ""Last name"": the system doesn't give an error when enter special characters in the input field ""Last name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Last name""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   $$$$$$$$
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""Last name"". No way to click ""Сontinue"".","0"
+"G11-93","group1.1","Star","Payment module - The input field ""Last name"": the system doesn't give an error when enter numbers in the input field ""Last name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Last name""
+
+2. Enter numbers
+   **INPUT DATA:**
+
+   63434523
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Last name"". No way to click ""Сontinue"".","0"
+"G11-92","group1.1","Star","Payment module - The input field ""Last name"": the system doesn't give an error when enter 1 character in the input field ""Last name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Last name""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   t
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""Last name"". No way to click ""Сontinue"".","0"
+"G11-91","group1.1","Star","Payment module - The input field ""Last name"": the system doesn't give an error when enter 255 characters in the input field ""Last name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""Last name""
+
+2. Enter 255 characters
+   **INPUT DATA:**
+
+   255 characters
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 characters on the input field ""Last name"". No way to click ""Сontinue"".","0"
+"G11-90","group1.1","Star","Payment module - The input field ""First name"": the system doesn't give an error when enter 255 characters in the input field ""First name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""First name""
+
+2. Enter 255 characters
+   **INPUT DATA:**
+
+   255 characters
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 255 characters on the input field ""First name"". No way to click ""Сontinue"".","0"
+"G11-89","group1.1","Star","Payment module - The input field ""First name"": the system doesn't give an error when enter 1 character in the input field ""First name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""First name""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   t
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter 1 character on the input field ""First name"". No way to click ""Сontinue"".","0"
+"G11-88","group1.1","Star","Payment module - The input field ""First name"": the system doesn't give an error when enter special characters in the input field ""First name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""First name""
+
+2. Enter special characters
+   **INPUT DATA:**
+
+   ???????
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter special characters on the input field ""First name"". No way to click ""Сontinue"".","0"
+"G11-87","group1.1","Star","Payment module - The input field ""First name"": the system doesn't give an error when enter numbers in the input field ""First name""","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Log in with the following details
+
+   **INPUT DATA:**
+
+   Email: ivanovtest@gmail.com
+
+   Password: ivanovtest
+3. Add item to cart and proceed to payment module
+
+**STR:**
+
+1. Click on the input field ""First name""
+
+2. Enter numbers
+   **INPUT DATA:**
+
+   4324235
+   **Result:** There is no error message. It is possible to proceed to the next stage of payment.
+   **Expected result:** Error message that it is not possible to enter numbers on the input field ""First name"". No way to click ""Сontinue"".","0"
+"G11-86","group1.1","Star","Cart - The input field ""Qty."": no client-side validation when leave the field empty","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Qty.""
+
+2. Leave the field empty
+   **Result:** No client side validation. There was no validation input error message.
+   **Expected result:** Client side validation. Error message that it is not possible to leave the input field ""Qty."" empty.","0"
+"G11-85","group1.1","Star","Cart - The input field ""Qty."": no client-side validation when entering Latin","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Qty.""
+
+2. Enter Latin
+
+   **INPUT DATA:**
+   five
+   **Result:** No client side validation. There was no validation input error message.
+   **Expected result:** Client side validation. Error message that it is not possible to enter Latin.","0"
+"G11-84","group1.1","Star","Cart - The input field ""Qty."": no client-side validation when entering Cyrillic","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Qty.""
+
+2. Enter Cyrillic
+
+   **INPUT DATA:**
+   сто
+   **Result:** No client side validation. There was no validation input error message.
+   **Expected result:** Client side validation. Error message that it is not possible to enter Cyrillic.","0"
+"G11-83","group1.1","Star","Cart - The input field ""Qty."": no client-side validation when entering special characters","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Qty.""
+
+2. Enter special characters
+
+   **INPUT DATA:**
+   @@@
+   **Result:** No client side validation. There was no validation input error message.
+   **Expected result:** Client side validation. Error message that it is not possible to enter special characters.","0"
+"G11-82","group1.1","","Cart - The input field ""Qty."": no client-side validation when entering ""0"" ","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Qty.""
+
+2. Enter ""0""
+   **Result:** No client side validation. There was no validation input error message.
+   **Expected result:** Client side validation. Error message that it is not possible to select the number ""0""","0"
+"G11-73","group1.1","Star","Cart - input field ""zip / postal code"": no server-side validation when entering special characters","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+2. Enter special characters
+   **INPUT DATA:**
+
+   ?????
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.**
+   Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-81","group1.1","","Cart - input field ""zip / postal code"": no server-side validation when entering 1 character","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter 1 character
+   **INPUT DATA:**
+
+   5
+
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-80","group1.1","Star","Cart - The window ""Estimate shipping"": no server-side validation when сlick the button ""Estimate shipping"" without a filled fields","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Leave the fields blank in the window ""Estimate shipping""
+
+2. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-79","group1.1","Star","Cart - input field ""zip / postal code"": no server-side validation when entering 255 character","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter 255 character
+   **INPUT DATA:**
+
+   255-character
+
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-78","group1.1","Star","Cart - input field ""zip / postal code"": no server-side validation when entering 7 character","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter 7 character
+   **INPUT DATA:**
+
+   4670365
+
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-77","group1.1","Star","Cart - input field ""zip / postal code"": no server-side validation when entering 4 character","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter 4 character
+   **INPUT DATA:**
+
+   4 character
+
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-76","group1.1","Star","Cart - input field ""zip / postal code"": no server-side validation when entering gap(s)","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter gap(s)
+   **INPUT DATA:**
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-75","group1.1","Star","Cart - input field ""zip / postal code"": no server-side validation when entering Latin","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter Latin
+   **INPUT DATA:**
+
+   mistake
+
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-74","group1.1","Star","Cart - input field ""zip / postal code"": no server-side validation when entering Cyrillic ","danila.andronov","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 bit operating system Google Chrome Version 105.0.5195.127 (Official build), (64 bit)","No qase tc # (only for bug)","**Preconditions:**
+
+1. Open <https://demowebshop.tricentis.com/>
+2. Add any product to cart
+3. Click on the button ""Shopping cart"" in the heading of the page
+
+**STR:**
+
+1. Click on the input field ""Zip / postal code""
+
+2. Enter Cyrillic
+   **INPUT DATA:**
+
+   папапа
+
+3. Click on the button ""Estimate shipping""
+   **Result:** No server side validation. There was no validation input error message.
+   **Expected result:** Server side validation. The appearance of an input error message.","0"
+"G11-24","group1.1","Star","Add customer: wrong message appear when entering numbers and special characters in the input field ""Mobile number""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter numbers and special characters in the input field ""Mobile number""
+
+   
+
+   **Result:** The message is ""Special characters are not allowed"" appeared
+
+**Expected result:** The message is ""Numbers and special characters are not allowed"" appeared according to requirement.","0"
+"G11-23","group1.1","Star","Add customer: There are restrictions on the number of lengths in the input field ""Mobile number""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Try to enter a number of 999 digits in the input field ""Mobile number""
+
+   
+
+   **Result:** There are restrictions on the number of lengths in the input field ""Mobile number""
+
+**Expected result:** There aren't restrictions on the number of lengths in the input field ""Mobile number"" according to requirement.","0"
+"G11-22","group1.1","Star","Add customer: wrong message appear when leaving ""Address"" input field empty","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Leave field blank ""Address""
+
+4. Click on the button ""Submit""
+
+   **Result:** The message is ""Address Field must not be blank"" appeared
+
+**Expected result:** The message is ""Last Name must not be blank""  appeared according to requirement.","0"
+"G11-21","group1.1","Star","Add customer: wrong message appear when entering numbers and special characters in the input field ""Address""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter numbers and special characters in the input field ""Address""
+
+   #### **Input data**
+
+   324322332%%%%
+
+   **Result:** The message is ""Special characters are not allowed"" appeared
+
+**Expected result:** The message is ""Numbers and special characters are not allowed"" appeared according to requirement.","0"
+"G11-20","group1.1","Star","Add customer: wrong message appear when entering cyrillic and special characters in the input field ""Address""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter cyrillic and special characters in the input field ""Address""
+
+   #### **Input data**
+
+   вывавыавыа ?????
+
+   **Result:** The message is ""Special characters are not allowed"" appeared
+
+**Expected result:** The message is ""Cyrillic and special characters are not allowed"" appeared according to requirement.","0"
+"G11-19","group1.1","Star","Add customer: the system doesn't give an error when entering cyrillic in the input field ""Address""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter cyrillic in the input field ""Address""
+
+   #### **Input data**
+
+   Москва столица России
+
+   **Result:** The system doesn't give an error. The system is accepted the value.
+
+**Expected result:** The message is ""Cyrillic are not allowed"" appeared according to requirement.","0"
+"G11-17","group1.1","Star","Add customer: the system gives an error when entering characters with dot in the input field ""Address""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter characters with dot in the input field ""Address""
+
+   #### **Input data**
+
+   g. Moscow
+
+   **Result:** The system gives an error. The message is ""Special characters are not allowed"" appeared.
+
+**Expected result:** There is no error message.","0"
+"G11-16","group1.1","Star","Add customer: the system does not give an error when entering cyrillic, @, domain zone in the input field ""Email""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter cyrillic, @, domain zone in the input field ""Email""
+
+   #### **Input data**
+
+   иванов@gmail.com
+
+   **Result:** The system does not give an error. The system is accepted the value.
+
+**Expected result:** The message is ""Email is not valid"" appeared according to requirement.","0"
+"G11-15","group1.1","Star","Add customer: the system does not give an error when entering special characters in the input field ""Email""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter special characters in the input field ""Email""
+
+   #### **Input data**
+
+   %%%%%%@%%.%%
+
+   **Result:** The system does not give an error. The system is accepted the value.
+
+**Expected result:** The message is ""Email is not valid"" appeared according to requirement.","0"
+"G11-14","group1.1","Star","Add customer: the system does not give an error when entering numbers in the input field ""Email""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter numbers in the input field ""Email""
+
+   #### **Input data**
+
+   232321@221213.32
+
+   **Result:** The system does not give an error. The system is accepted the value.
+
+**Expected result:** The message is ""Email is not valid"" appeared according to requirement.","0"
+"G11-13","group1.1","Star","Add customer: the system does not give an error when entering Cyrillic in the input field ""Email""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter Cyrillic in the input field ""Email""
+
+   #### **Input data**
+
+   иванов@майл.ру
+
+   **Result:** The system isn't generated an error. The system is accepted the value.
+
+**Expected result:** The message is ""Email is not valid"" appeared according to requirement.","0"
+"G11-12","group1.1","Star","Add customer: wrong message appear when leaving ""Email"" input field empty","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Leave field blank ""Email""
+
+4. Click on the button ""Submit""
+
+   **Result:** The message is ""Email-ID must not be blank"" appeared
+
+**Expected result:** The message is ""Last Name must not be blank"" appeared according to requirement.","0"
+"G11-11","group1.1","Star","Add customer: wrong message appear when leaving ""First name"" input field empty","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Leave field blank ""First name""
+
+4. Click on the button ""Submit""
+
+   **Result:** The message is ""Customer name must not be blank"" appeared
+
+**Expected result:** The message is ""First Name must not be blank"" appeared according to requirement.","0"
+"G11-10","group1.1","Star","Add customer: wrong message appear when entering Cyrillic in the input field ""First name""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+2. Click on the button ""Add Customer""
+3. Enter Cyrillic in the input field ""First name""
+
+   
+
+   **Result:** The message is ""Numbers are not allowed"" appeared
+
+**Expected result:** The message is ""Cyrillic are not allowed"" appeared according to requirement.","0"
+"G11-9","group1.1","Star","Add customer: A user is created when entering the same data so that another user has it","danila.andronov","19 Sep 2022","19 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/addcustomer.php>
+2. Fill in all input fields (valid)
+
+   #### **Input data**
+
+   First name: Dima
+   Surname: Dimanov
+   Email: dimanov@gmail.com
+   Adress: Dmitrov
+   Mobile: 89519268765
+3. Click on the button ""Submit""
+4. Click on the button ""Home""
+5. Click on the button ""Add Customer""
+6. Fill in all input fields (valid)
+
+   #### **Input data**
+
+   First name: Dima
+   Surname: Dimanov
+   Email: dimanov@gmail.com
+   Adress: Dmitrov
+   Mobile: 89519268765
+7. Click on the button ""Add Customer""
+
+**Result:** Two users are created with the same data.
+**Expected result:** The system gives an error that the data is already in use by another user.","0"
+"G11-8","group1.1","Star","Add customer: wrong message appear when leaving ""Last name"" input field empty","danila.andronov","19 Sep 2022","19 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Leave field blank ""Last name""
+
+
+
+**Result:** The message is ""Customer name must not be blank"" appeared
+**Expected result:** The message is ""Last Name must not be blank"" appeared according to requirement.","0"
+"G11-7","group1.1","Star","Main page: the button ""Delete Customer"" button is missing when viewing the main page","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+2. Checking for the button ""Delete Customer""
+
+   Result: There isn't the button ""Delete Customer"" on the main page.
+
+   Expected result: There is the button ""Delete Customer"" according to the requirement.","0"
+"G11-25","group1.1","","Testing Documentation Danila Andronov","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-4","group1.1","Star","Testing Documentation Danila Andronov","danila.andronov","18 Sep 2022","19 Sep 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-18","group1.1","Star","Add customer: the system gives an error when entering characters with comma in the input field ""Address""","danila.andronov","19 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Windows 10 Pro 64 разрядная операционная система Google Chrome Версия 105.0.5195.127 (Официальная сборка), (64 бит)","No qase tc # (only for bug)","1. Open <https://demo.guru99.com/telecom/index.html>
+
+2. Click on the button ""Add Customer""
+
+3. Enter characters with comma in the input field ""Address""
+
+   #### **Input data**
+
+   Novgorod, ylitsa gagarina
+
+   **Result:** The system gives an error. The message is ""Special characters are not allowed"" appeared.
+
+**Expected result:** There is no error message.","0"
